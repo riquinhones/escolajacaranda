@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Jacarandá</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    /* Vídeo de fundo */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      opacity: 0.5; /* transparência de 50% */
+    }
+
+    header {
+      background-color: rgba(75, 46, 131, 0.9);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 200px;
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+
+    nav {
+      background-color: rgba(51, 51, 51, 0.9);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
+      margin-top: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: rgba(75, 46, 131, 0.9);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Vídeo de fundo -->
+  <video autoplay muted loop class="video-background">
+    <source src="video.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo em HTML5.
+  </video>
+
+   <header>
+    <img src="logo.JPG" alt="Logo da Escola Jacarandá">
+    <div>
+      <h1>Escola Jacarandá</h1>
+      <p>Onde a criança pode ser criança</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Há treze anos nasceu o Jacarandá, em uma rua tranquila no bairro da Vila Livieiro. 
+    Nosso sonho sempre foi proporcionar vivências educativas em um ambiente no qual a infância fosse respeitada, levando em consideração as propostas atuais de educação.</p>
+    <p>Somos especializados na primeira infância e contamos com uma proposta diferenciada: 
+    formamos crianças protagonistas e criativas que participam do processo de aquisição do conhecimento.</p>
+    <p>Temos ideologia construtivista, com projetos que valorizam os interesses das crianças. 
+    O brincar é nosso eixo principal, conforme a BNCC: brincar muito, brincar para aprender, brincar sempre!</p>
+    <p>Oferecemos alimentação acompanhada por nutricionista, oficinas nutricionais, espaços amplos e iluminados, tanque de areia, acquaplay e parque aberto.</p>
+    <p>Funcionamos das 7h às 19h, com períodos flexíveis (integral, semi-integral e meio período). 
+    Nossa escola é autorizada e acompanhada pela Diretoria Regional do Ipiranga, com todos os documentos atualizados.</p>
+    <p><strong>Diferenciais:</strong> acolhimento individualizado, refeições inclusas, equipe especializada, oficinas gratuitas (inglês e nutrição), oficinas extras (balé, judô, música), horários flexíveis e parceria com as famílias.</p>
+  </section>
+
+  <section id="cursos">
+    <h2>Nossos Cursos</h2>
+    <ul>
+      <li>Berçário</li>
+      <li>Educação Infantil</li>
+      <li>Atividades extracurriculares</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Endereço: Rua Eugênio Kusnet, 6 - Vila Santa Teresa - São Paulo</p>
+    <p>CEP: 04187-310</p>
+    <p>Telefone: (11) 3938-1591</p>
+    <p>Email: institutojacaranda@hotmail.com</p>
+    <p>Instagram: <a href="https://instagram.com/institutojacaranda" target="_blank">@institutojacaranda</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Escola Jacarandá - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
